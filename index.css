@@ -1,0 +1,82 @@
+
+
+
+.navbar {
+    background-color: #DCC7FF;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .navbar-scrolled {
+    background-color: #FFF;
+  }
+  #hero {
+    margin-top: 80px; /* altura del navbar */
+  }
+    
+  .hero-section {
+    background: linear-gradient(to bottom, #DCC7FF, white);
+  }
+  
+
+section {
+    margin-top: 100px; /* Puedes ajustar el valor según tus necesidades */
+  }
+
+
+  .btn-lg {
+    padding: 12px 24px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+  }
+  
+  .custom-img {
+    width: 900px;
+    height: auto;
+    max-width: 900px;
+    max-height: 400px;
+  }
+
+
+  .blush-card {
+    background: linear-gradient(to bottom right, #DCC7FF , white, white, #94BFFF);
+    border-radius: 20px;
+  }
+  
+
+
+  .testimonial-card {
+    border: 2px solid #94BFFF;
+    padding: 80px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease-in-out;
+    position: relative;
+    border-radius: 30px;
+
+  }
+  
+  .testimonial-card:hover {
+    border-color: black;
+    background-color: red;
+  }
+  
+  .testimonial-icon {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: blue;
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  .contacto{
+    background-color: #DCC7FF;
+  }
