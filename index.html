@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="index.css" rel="stylesheet"></link>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link href="index.css" rel="stylesheet"></link>
 
     <title>Aesthetic Rouse</title>
 </head>
@@ -22,9 +22,9 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-around">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                <a class="nav-link link-nosotros" aria-current="page" href="#">Nosotros</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#tratamientos">Tratamientos</a>
@@ -46,10 +46,7 @@
    <section class="hero-section mt-lg-4 mt-sm-2 pt-2">
     <div class="container p-0 d-flex justify-content-center" id="hero">
       <div class="row no-gutters">
-        <div class="col-md-6 order-md-2">
-          <img src="./images/image.png" class="img-fluid" alt="Imagen del hero">
-        </div>
-        <div class="col-md-6 order-md-1">
+        <div class="col-6 ">
           <div class="hero-text">
             <h1 class="mb-4">Animate al cambio!</h1>
             <p class="lead mb-5">Estamos para vos. Tratamientos para reducir, tonificar y atenuar el cuerpo, Depilación Definitiva, HIFU 7D y más</p>
@@ -57,6 +54,13 @@
             <a href="#" class="btn btn-primary btn-lg">Reservá tu turno</a>
           </div>
         </div>
+        <div class="col-6 ">
+          <div class="image-container">
+            <img src="./images/image.png" class="img-fluid imagen" alt="Imagen del hero">
+          </div>
+          
+        </div>
+       
       </div>
     </div>
   </section>
@@ -72,10 +76,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-3 mb-4">
-          <div class="card rounded blush-card h-100">
+          <div class="card blush-card">
             <div class="card-body">
-              <h5 class="card-title">Depilación Definitiva</h5>
-              <p class="card-text">Recomendaciónes para implementar luego de la sesión de depilación laser</p>
+              <h5 class="card-title ms-2 mt-4">Depilación Definitiva</h5>
+              <p class="card-text ms-2 mt-5">Recomendaciónes para implementar luego de la sesión de depilación laser</p>
               <a href="#" class="card-link"><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
@@ -83,8 +87,8 @@
         <div class="col-md-3 mb-4">
           <div class="card rounded blush-card h-100">
             <div class="card-body">
-              <h5 class="card-title">lentes o gafas protectoras</h5>
-              <p class="card-text">¿Es necesario llevar puesto las gafas durante nuestras sesiones? Sí, aprendé el por qué.</p>
+              <h5 class="card-title ms-2 mt-4">lentes o gafas protectoras</h5>
+              <p class="card-text ms-2 mt-3">¿Es necesario llevar puesto las gafas durante nuestras sesiones? Sí, aprendé el por qué.</p>
               <a href="#" class="card-link"><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
@@ -92,8 +96,8 @@
         <div class="col-md-3 mb-4">
           <div class="card rounded blush-card h-100">
             <div class="card-body">
-              <h5 class="card-title">Irritación en la piel</h5>
-              <p class="card-text">¿Tenés irritación en la entrepierna?</p>
+              <h5 class="card-title ms-2 mt-4">Irritación en la piel</h5>
+              <p class="card-text ms-2 mt-5">¿Tenés irritación en la entrepierna?</p>
               <a href="#" class="card-link"><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
@@ -101,8 +105,8 @@
         <div class="col-md-3 mb-4">
           <div class="card rounded blush-card h-100">
             <div class="card-body">
-              <h5 class="card-title">Depilación Definitiva</h5>
-              <p class="card-text">¿Debo resurarme antes de mi sesión de depilación definitiva?</p>
+              <h5 class="card-title ms-2 mt-4">Depilación Definitiva</h5>
+              <p class="card-text ms-2 mt-5">¿Debo resurarme antes de mi sesión de depilación definitiva?</p>
               <a href="#" class="card-link"><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
