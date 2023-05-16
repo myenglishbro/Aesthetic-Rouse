@@ -45,37 +45,47 @@
  
   
 
-section {
+  section {
     margin-top: 100px; /* Puedes ajustar el valor según tus necesidades */
   }
-
-  .main-title{
-    font-weight:700;
-    font-size:48px;
-    line-height:72px;
+  
+  .main-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.5;
     color: #470E9D;
   }
-
-  .section-3{
-    margin-top: 25%;
-    margin-bottom: 25%;
-  }
-
-  .subtitle{
-    font-weight:600;
-    font-size:36px;
-    line-height:54px;
+  
+  .subtitle {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.5;
     color: #470E9D;
   }
-
-  .p{
+  
+  .p {
     color: #452181;
   }
- span, .reserva-tu-turno,.card-title,.contact{
-  font-weight: 600;
-  font-size: 24px;
-  line-height:36px!important;
- }
+  
+  span,
+  .reserva-tu-turno,
+  .card-title,
+  .contact {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5!important;
+  }
+  
+  @media (max-width: 767px) {
+    .hero-text {
+      text-align: center;
+    }
+    
+    .image {
+      margin-top: 30px;
+    }
+  }
+  
 
  .div-contact{
   height: 90%;
@@ -92,6 +102,8 @@ section {
   border-radius: 48px !important;
   width:317px;
   height: 64px;
+  margin: 0 auto; /* Para centrar horizontalmente */
+  text-align: center; /* Para centrar el texto dentro del contenedor */
  }
    
  .link-reserva-tu-turno{
