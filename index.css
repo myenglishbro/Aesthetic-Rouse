@@ -3,7 +3,10 @@
 *{
  font-family: "Poppins" , sans-serif !important; 
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/remotes/origin/master
 .navbar {
     background-color: #DCC7FF;
     transition: background-color 0.3s ease-in-out;
@@ -16,7 +19,18 @@
     line-height: 36px;
    
   }
+<<<<<<< HEAD
  
+=======
+  .navbar-nav{
+    height: 76px;
+    top: 10.42%;
+    position: absolute;
+    left: 44.72%;
+    bottom: 10.42%;
+    right: 1.74%;
+  }
+>>>>>>> refs/remotes/origin/master
 
   .link-nosotros{
     width: 109px;
@@ -56,6 +70,7 @@ section {
     line-height:72px;
     color: #470E9D;
   }
+<<<<<<< HEAD
 
   .section-3{
     margin-top: 25%;
@@ -137,7 +152,48 @@ section {
       font-size: 24px;
       line-height:36px;
   }
+=======
+>>>>>>> refs/remotes/origin/master
 
+ span, .reserva-tu-turno,.card-title{
+  font-weight: 600;
+  font-size: 24px;
+  line-height:36px!important;
+ }
+
+ .reserva-tu-turno{
+  font-size: 16px !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px !important;
+  gap: 10px;
+  background: #2676ED;
+  border-radius: 48px !important;
+  width:317px;
+  height: 64px;
+ }
+   
+ .link-reserva-tu-turno{
+  text-decoration: none;
+  color: white;
+ }
+
+ .bi-whatsapp{
+  font-size: 26px;
+  color: white;
+  margin-bottom: 3%;
+ }
+
+.lead{
+      font-size: 24px;
+      line-height:36px;
+  }
+.image-container{
+  width:633px !important;
+  height:570px !important;
+}
   .btn-lg {
     padding: 12px 24px;
     font-size: 1.25rem;
@@ -169,7 +225,15 @@ section {
     color: #452181;
   }
 
+<<<<<<< HEAD
 
+=======
+  .card-text{
+    width:159px;
+    height:48px;
+ 
+  }
+>>>>>>> refs/remotes/origin/master
 
   .testimonial-card {
     border: 2px solid #94BFFF;
