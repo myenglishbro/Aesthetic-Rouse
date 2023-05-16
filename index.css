@@ -79,7 +79,7 @@ section {
  }
 
  .div-contact{
-  height: 100%;
+  height: 90%;
  }
  .reserva-tu-turno{
   font-size: 16px !important;
@@ -109,7 +109,29 @@ section {
  .whatsapp-contact , .geo-alt-fill-icon,.instagram-contact{
   color: #452181 ;
   font-size: 36px;
+  margin-right: 15px ;
+  margin-left:5%;
  }
+.ellipse{
+  position: absolute;
+  width: 485px;
+  height: 557px;
+  left: -16%;
+  top: -2%;
+
+  background: radial-gradient(50% 50% at 50% 50%, rgba(148, 191, 255, 0.58) 0%, rgba(221, 226, 255, 0) 100%);
+  transform: rotate(-179.5deg);
+}
+
+.ellipse-2{
+  position: absolute;
+  width: 485px;
+  height: 557px;
+  left: 281%;
+  top: -85%;
+  background: radial-gradient(50% 50% at 50% 50%, #DCC7FF 0%, rgba(221, 226, 255, 0) 100%);
+  transform: rotate(-179.22deg);  
+}
 
 .lead{
       font-size: 24px;
