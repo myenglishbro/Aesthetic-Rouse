@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="index.css" rel="stylesheet"></link>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link href="index.css" rel="stylesheet"></link>
 
     <title>Aesthetic Rouse</title>
 </head>
@@ -22,18 +22,18 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-around">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                <a class="nav-link link-nosotros" aria-current="page" href="#">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#tratamientos">Tratamientos</a>
+                <a class="nav-link link-tratamientos" href="#tratamientos">Tratamientos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#testimonios">Testimonios</a>
+                <a class="nav-link link-testimonios" href="#testimonios">Testimonios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contacto">Contacto</a>
+                <a class="nav-link link-contacto" href="#contacto">Contacto</a>
               </li>
             </ul>
           </div>
@@ -46,17 +46,22 @@
    <section class="hero-section mt-lg-4 mt-sm-2 pt-2">
     <div class="container p-0 d-flex justify-content-center" id="hero">
       <div class="row no-gutters">
-        <div class="col-md-6 order-md-2">
-          <img src="./images/image.png" class="img-fluid" alt="Imagen del hero">
-        </div>
-        <div class="col-md-6 order-md-1">
+        <div class="col-6 ">
           <div class="hero-text">
-            <h1 class="mb-4">Animate al cambio!</h1>
-            <p class="lead mb-5">Estamos para vos. Tratamientos para reducir, tonificar y atenuar el cuerpo, Depilación Definitiva, HIFU 7D y más</p>
-            <p>¿Ya sabes qué te vas a hacer?</p>
-            <a href="#" class="btn btn-primary btn-lg">Reservá tu turno</a>
+            <h1 class="my-4 main-title">Animate al cambio!</h1>
+            <p class="lead mb-5">Estamos para vos. Tratamientos para reducir, tonificar y atenuar el cuerpo, <span>Depilación Definitiva, HIFU 7D y más</span></p>
+            <p class="lead">¿Ya sabes qué te vas a hacer?</p>
+            <div  class="reserva-tu-turno">
+              <i class="bi bi-whatsapp"></i>
+              <a href="#" class="link-reserva-tu-turno">Reservá tu turno</a>
+            </div>
+            
           </div>
         </div>
+        <div class="col-6">   
+          <img src="./images/image.png" class="img-fluid image" alt="Imagen del hero">  
+        </div>
+       
       </div>
     </div>
   </section>
@@ -72,38 +77,38 @@
     <div class="container">
       <div class="row">
         <div class="col-md-3 mb-4">
-          <div class="card rounded blush-card h-100">
+          <div class="card blush-card">
             <div class="card-body">
-              <h5 class="card-title">Depilación Definitiva</h5>
-              <p class="card-text">Recomendaciónes para implementar luego de la sesión de depilación laser</p>
-              <a href="#" class="card-link"><i class="bi bi-arrow-right"></i></a>
+              <h5 class="card-title ms-2 mt-4">Depilación Definitiva</h5>
+              <p class="card-text ms-2 mt-5">Recomendaciónes para implementar luego de la sesión de depilación laser</p>
+              <div class="d-flex justify-content-end"> <a href="#" class="card-link"><i class="bi bi-arrow-right"></i></a></div>
             </div>
           </div>
         </div>
         <div class="col-md-3 mb-4">
           <div class="card rounded blush-card h-100">
             <div class="card-body">
-              <h5 class="card-title">lentes o gafas protectoras</h5>
-              <p class="card-text">¿Es necesario llevar puesto las gafas durante nuestras sesiones? Sí, aprendé el por qué.</p>
-              <a href="#" class="card-link"><i class="bi bi-arrow-right"></i></a>
+              <h5 class="card-title ms-2 mt-4">lentes o gafas protectoras</h5>
+              <p class="card-text ms-2 mt-3">¿Es necesario llevar puesto las gafas durante nuestras sesiones? Sí, aprendé el por qué.</p>
+              <div class="d-flex justify-content-end"> <a href="#" class="card-link"><i class="bi bi-arrow-right"></i></a></div>
             </div>
           </div>
         </div>
         <div class="col-md-3 mb-4">
           <div class="card rounded blush-card h-100">
             <div class="card-body">
-              <h5 class="card-title">Irritación en la piel</h5>
-              <p class="card-text">¿Tenés irritación en la entrepierna?</p>
-              <a href="#" class="card-link"><i class="bi bi-arrow-right"></i></a>
+              <h5 class="card-title ms-2 mt-4">Irritación en la piel</h5>
+              <p class="card-text ms-2 mt-5">¿Tenés irritación en la entrepierna?</p>
+              <div class="d-flex justify-content-end"> <a href="#" class="card-link"><i class="bi bi-arrow-right"></i></a></div>
             </div>
           </div>
         </div>
         <div class="col-md-3 mb-4">
           <div class="card rounded blush-card h-100">
             <div class="card-body">
-              <h5 class="card-title">Depilación Definitiva</h5>
-              <p class="card-text">¿Debo resurarme antes de mi sesión de depilación definitiva?</p>
-              <a href="#" class="card-link"><i class="bi bi-arrow-right"></i></a>
+              <h5 class="card-title ms-2 mt-4">Depilación Definitiva</h5>
+              <p class="card-text ms-2 mt-5">¿Debo resurarme antes de mi sesión de depilación definitiva?</p>
+              <div class="d-flex justify-content-end"> <a href="#" class="card-link"><i class="bi bi-arrow-right"></i></a></div>
             </div>
           </div>
         </div>
@@ -113,14 +118,21 @@
   
   <section>
     <div class="container">
-      <div class="row">
+      <div class="row section-3">
        
-        <div class="col-md-6">
-          <p>Te vas a llevar bien 
-            con nosotros porque...</p>
+        <div class="col-md-4 position-relative">
+          <h2 class="subtitle">Te vas a llevar bien 
+            con nosotros porque...</h2>
+            <p class="p ">Sacate todas las dudas antes de realizar tu tratamiento. Te acompañamos en todo el proceso :)</p>
+            <div class="ellipse"></div>
         </div>
-        <div class="col-md-6">
-          <img src="https://i.ibb.co/nfXBffV/stickers.png" alt="Descripción de la imagen" class="img-fluid custom-img">
+        <div class="col-md-2 position-relative"><div class="ellipse-2"></div></div>
+        
+        
+        <div class="col-md-6 d-flex justify-content-evenly">
+          <img src="/images/sticker-tratamientos.svg" alt="Descripción de la imagen" class="img-fluid img-section-2">
+          <img src="/images/sticker-precios.svg" alt="Descripción de la imagen" class="img-fluid img-section-2">
+          <img src="/images/sticker-buena-atencion.svg" alt="Descripción de la imagen" class="img-fluid img-section-2">
         </div>
       </div>
     </div>
@@ -158,7 +170,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <img src="/images/seccion-nosotros.png" alt="Descripción de la imagen" class="img-fluid custom-img">
+          <img src="/images/seccion-nosotros.png" alt="Descripción de la imagen" class="img-fluid">
         </div>
         <div class="col-md-6">
           <p>Somos una empresa que ofrece servicios de 
@@ -215,19 +227,19 @@
   </section>
   
   
-  <section class="container contacto mt-5 " id="contacto">
+  <section class="container contact mt-5 " id="contacto">
     <div class="row">
       <div class="col-md-8">
         <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.343794820932!2d-122.4002196848203!3d37.79079947792552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808480a0eb5d%3A0xf8df62e355fb17f7!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1620840275727!5m2!1sen!2sus" allowfullscreen width="800" height="600"></iframe>
+            <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.343794820932!2d-122.4002196848203!3d37.79079947792552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808480a0eb5d%3A0xf8df62e355fb17f7!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1620840275727!5m2!1sen!2sus" allowfullscreen width="100%" height="519"></iframe>
         </div>
       </div>
       <div class="col-md-4">
-        <ul class="list-group">
-          <li class="list-group-item">Av. Santa Fe 3444, Palermo</li>
-          <li class="list-group-item">+54 9 11 7145-8347</li>
-          <li class="list-group-item">aesthetic.rouse</li>
-        </ul>
+        <div class="d-flex flex-column justify-content-evenly div-contact">
+          <p class="d-flex align-items-center"><i class="bi bi-geo-alt-fill geo-alt-fill-icon"></i> Av. Santa Fe 3444, Palermo</li>
+          <p class="d-flex align-items-center">  <i class="bi bi-whatsapp whatsapp-contact"></i> +54 9 11 7145-8347</li>
+          <p class="d-flex align-items-center"><i class="bi bi-instagram instagram-contact"></i> Aesthetic.rouse</li>
+        </div>
       </div>
     </div>
   </section>
