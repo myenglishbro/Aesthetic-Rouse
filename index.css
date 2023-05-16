@@ -3,6 +3,7 @@
 *{
  font-family: "Poppins" , sans-serif !important; 
 }
+
 .navbar {
     background-color: #DCC7FF;
     transition: background-color 0.3s ease-in-out;
@@ -15,14 +16,7 @@
     line-height: 36px;
    
   }
-  .navbar-nav{
-    height: 76px;
-    top: 10.42%;
-    position: absolute;
-    left: 44.72%;
-    bottom: 10.42%;
-    right: 1.74%;
-  }
+ 
 
   .link-nosotros{
     width: 109px;
@@ -46,7 +40,10 @@
     
   .hero-section {
     background: linear-gradient(to bottom, #DCC7FF, white);
+    margin: 0;
   }
+
+ 
   
 
 section {
@@ -60,12 +57,30 @@ section {
     color: #470E9D;
   }
 
- span, .reserva-tu-turno,.card-title{
+  .section-3{
+    margin-top: 25%;
+    margin-bottom: 25%;
+  }
+
+  .subtitle{
+    font-weight:600;
+    font-size:36px;
+    line-height:54px;
+    color: #470E9D;
+  }
+
+  .p{
+    color: #452181;
+  }
+ span, .reserva-tu-turno,.card-title,.contact{
   font-weight: 600;
   font-size: 24px;
   line-height:36px!important;
  }
 
+ .div-contact{
+  height: 100%;
+ }
  .reserva-tu-turno{
   font-size: 16px !important;
   display: flex;
@@ -91,14 +106,16 @@ section {
   margin-bottom: 3%;
  }
 
+ .whatsapp-contact , .geo-alt-fill-icon,.instagram-contact{
+  color: #452181 ;
+  font-size: 36px;
+ }
+
 .lead{
       font-size: 24px;
       line-height:36px;
   }
-.image-container{
-  width:633px !important;
-  height:570px !important;
-}
+
   .btn-lg {
     padding: 12px 24px;
     font-size: 1.25rem;
@@ -113,7 +130,10 @@ section {
     max-height: 400px;
   }
 
-
+.img-section-2{
+  transform: rotate(-13.4deg);  
+  width: 164px;
+}
   .blush-card {
     background-color: #DCC7FF !important;
     border-radius: 48px!important;
@@ -127,11 +147,7 @@ section {
     color: #452181;
   }
 
-  .card-text{
-    width:159px;
-    height:48px;
- 
-  }
+
 
   .testimonial-card {
     border: 2px solid #94BFFF;
@@ -160,8 +176,8 @@ section {
     border-radius: 50%;
   }
   
-  .contacto{
-    background-color: #DCC7FF;
+  .contact{
+    font-weight: 400;
   }
 
   .fixed-button-container {
@@ -256,4 +272,28 @@ section {
   
   .footer-social-icon {
     margin-left: 5px;
+  }
+
+  @media  (min-width: 992px) {
+    .navbar-nav{
+      position: absolute;
+      height: 76px;
+      top: 10.42%;
+      left: 44.72%;
+      bottom: 10.42%;
+      right: 1.74%;
+    }
+
+   
+  }
+
+ 
+
+  
+  @media  (max-width: 480px) {
+   
+    .image{
+      display: none;
+    }
+   
   }
