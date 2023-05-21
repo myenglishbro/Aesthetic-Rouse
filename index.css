@@ -29,7 +29,9 @@
   .link-tratamientos{
     width: 166px;
   }
-  
+  .card-tratamientos {
+    background-color: transparent;
+  }
   .navbar-scrolled {
     background-color: #FFF;
   }
@@ -227,25 +229,75 @@
     transition: border-color 0.3s ease-in-out;
     position: relative;
     border-radius: 30px;
-
+    background-color: white;
   }
   
   .testimonial-card:hover {
-    border-color: black;
-    background-color: red;
+    border-color: white;
+    background-color: #94BFFF;
+  }
+  
+  .testimonial-card:hover .testimonial-icon {
+    background-color: white;
+    color: #94BFFF;
   }
   
   .testimonial-icon {
     position: absolute;
-    bottom: -20px;
+    bottom: -25px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: blue;
+    background-color: #94BFFF;
     color: white;
-    font-size: 2rem;
-    padding: 10px;
+    font-size: 4rem; /* Aumenta el tamaño del ícono */
+    padding: 10px; /* Aumenta el espacio interno del ícono */
     border-radius: 50%;
+    transition: background-color 0.3s ease-in-out;
   }
+  
+  .testimonial-icon:hover {
+    background-color: white;
+    color: #94BFFF;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   .contact{
     font-weight: 400;
@@ -292,6 +344,53 @@
   }
 
 
+  .card-tratamientos-corporales {
+    border: none;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card-tratamientos-corporales::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #DCC7FF, transparent);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .card-tratamientos-corporales:hover::before {
+    opacity: 1;
+  }
+  
+  .card-tratamentos-title {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    margin: 0;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .card-tratamentos-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    font-size: 20px;
+  }
+  
+
+  .rounded {
+    border-radius: 10px;
+  }
+
+
+
+
   footer {
     background-color: #470E9D;
     padding: 20px;
@@ -306,6 +405,8 @@
   
   .footer-left {
     flex-grow: 1;
+    text-align: left;
+
   }
   
   .footer-right {
@@ -368,3 +469,5 @@
     }
    
   }
+
+
