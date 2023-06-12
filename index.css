@@ -1,82 +1,124 @@
-
-
+/* estilos para toda la pagina*/
 *{
-  font-family: "Poppins" , sans-serif !important; 
+  font-family: "Poppins" , sans-serif ; 
  }
+
+ .btn-main{
+  font-size: 16px !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px !important;
+  gap: 10px;
+  background: #2676ED;
+  border-radius: 48px !important;
+  width:317px;
+  height: 64px;
+  margin: 0 auto; /* Para centrar horizontalmente */
+  text-align: center; /* Para centrar el texto dentro del contenedor */
+  text-decoration: none;
+  color: white;
+ }
+
+ section {
+  margin-top: 150px; /* Puedes ajustar el valor según tus necesidades */
+}
+.main-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.5;
+  color: #470E9D;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #470E9D;
+}
+
+.p {
+  color: #452181;
+}
+
+span,
+.btn-main,
+.card-title,
+.contact {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.5!important;
+}
+
+/*estilos del navbar*/
  .navbar {
      background-color: #DCC7FF;
      transition: background-color 0.3s ease-in-out;
-   }
-   
+   } 
    .navbar-nav .nav-link {
      color: #452181;
      font-size: 24px;
      font-weight: 600;
      line-height: 36px;
-    
-   }
-  
- 
-   .link-nosotros{
-     width: 109px;
-   }
-   .link-testimonios{
-     width: 150px;
-   }
-   .link-contacto{
-     width: 115px;
-   }
-   .link-tratamientos{
-     width: 166px;
-   }
-   .card-tratamientos {
-     background-color: transparent;
+     display: inline-block;
+     padding: 10px;
+      width: 100%; /* Make each link occupy the full available width */
+      text-align: center; /* Center the text horizontally */
    }
    .navbar-scrolled {
-     background-color: #FFF;
-   }
-   #hero {
-     margin-top: 80px; /* altura del navbar */
-   }
-     
-   .hero-section {
-     background: linear-gradient(to bottom, #DCC7FF, white);
-     margin: 0;
-   }
- 
+    background-color: #FFF;
+  }
+
+/*estilos del hero*/
+#hero {
+  margin-top: 80px; /* altura del navbar */
+}
   
-   
- 
-   section {
-     margin-top: 100px; /* Puedes ajustar el valor según tus necesidades */
+.hero-section {
+  background: linear-gradient(to bottom, #DCC7FF, white);
+  margin: 0;
+}
+
+
+
+  
+/*estilos del tip section*/
+
+.blush-card {
+  background-color: #DCC7FF !important;
+  border-radius: 48px!important;
+  height: 324px;
+  width: 318px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+
+
+.card-title{
+  color: #452181;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+   .card-tratamientos {
+     background-color: blush;
    }
-   
-   .main-title {
-     font-weight: 700;
-     font-size: 48px;
-     line-height: 1.5;
-     color: #470E9D;
-   }
-   
-   .subtitle {
-     font-weight: 600;
-     font-size: 36px;
-     line-height: 1.5;
-     color: #470E9D;
-   }
-   
-   .p {
-     color: #452181;
-   }
-   
-   span,
-   .reserva-tu-turno,
-   .card-title,
-   .contact {
-     font-weight: 600;
-     font-size: 24px;
-     line-height: 1.5!important;
-   }
+  
+
+  
+
+
+
    
    @media (max-width: 767px) {
      .hero-text {
@@ -92,26 +134,9 @@
   .div-contact{
    height: 90%;
   }
-  .reserva-tu-turno{
-   font-size: 16px !important;
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   align-items: center;
-   padding: 20px !important;
-   gap: 10px;
-   background: #2676ED;
-   border-radius: 48px !important;
-   width:317px;
-   height: 64px;
-   margin: 0 auto; /* Para centrar horizontalmente */
-   text-align: center; /* Para centrar el texto dentro del contenedor */
-  }
+  
     
-  .link-reserva-tu-turno{
-   text-decoration: none;
-   color: white;
-  }
+ 
  
   .bi-whatsapp{
    font-size: 26px;
@@ -157,25 +182,7 @@
    line-height:36px!important;
   }
  
-  .reserva-tu-turno{
-   font-size: 16px !important;
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   align-items: center;
-   padding: 20px !important;
-   gap: 10px;
-   background: #2676ED;
-   border-radius: 48px !important;
-   width:317px;
-   height: 64px;
-  }
-    
-  .link-reserva-tu-turno{
-   text-decoration: none;
-   color: white;
-  }
- 
+
   .bi-whatsapp{
    font-size: 26px;
    color: white;
@@ -208,19 +215,6 @@
    transform: rotate(-13.4deg);  
    width: 164px;
  }
-   .blush-card {
-     background-color: #DCC7FF !important;
-     border-radius: 48px!important;
-     height: 324px;
-     width: 318px;
-     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-     border: none;
-   }
-   
- 
-   .card-title{
-     color: #452181;
-   }
  
  
    .testimonial-card {
