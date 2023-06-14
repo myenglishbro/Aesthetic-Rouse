@@ -134,12 +134,14 @@
 
 .fixed-button-text-container {
   position: absolute;
-  left: -150px;
-  top: -10px;
-  background-color: #ffffff;
+  left: -160px;
+  top: -0px;
+  background-color: #B1FFCE;
+  color: #000000;
   border-radius: 10px;
   padding: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border: none;
 }
 
 .fixed-button-text {
@@ -189,9 +191,7 @@ span, .reserva-tu-turno,.card-title,.contact{
   color: #452181;
 }
 
-.div-contact{
-  height: 90%;
- }
+
 
  .img-section-2{
   transform: rotate(-13.4deg);  
@@ -272,10 +272,11 @@ span, .reserva-tu-turno,.card-title,.contact{
   padding: 13% 10% 12%;
 }
 
-.snip1533 figcaption:before {
+
+.snip1533:before {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: #94BFFF;;
+  background-color: #94BFFF;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   color: #ffffff;
@@ -286,10 +287,9 @@ span, .reserva-tu-turno,.card-title,.contact{
   left: 50%;
   line-height: 60px;
   position: absolute;
-  top: -30px;
+  bottom: -30px; /* Adjust the value to move the icon to the desired position */
   width: 60px;
 }
-
 .snip1533 h3 {
   color: #3c3c3c;
   font-size: 20px;
@@ -329,13 +329,13 @@ figure {
   width: 300px;
 }
 
+
 @media screen and (max-width: 768px) {
   .snip1533 {
     width: 100%;
+    margin-top: 20px; /* Add the desired margin-top value */
   }
 }
-
-
 
 
 
