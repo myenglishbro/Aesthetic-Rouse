@@ -338,6 +338,50 @@ figure {
 }
 
 
+@media screen and (max-width: 480px) {
+  .text-center-mobile {
+   text-align: center !important;
+  }
+
+  .title-mobile{
+    font-size: 24px;
+  }
+
+  .p-mobile{
+    font-size: 16px;
+  }
+
+  .bi-whatsapp{
+    font-size: 16px;
+  }
+
+  .btn-main{
+    font-size: 12px !important;
+  }
+
+  .btn-main{
+    width: 220px;
+  }
+
+  .subtitle{
+    font-size: 20px;
+  }
+
+  .subtitle-2{
+    font-size: 24px;
+  }
+
+  .img-flex{
+    display: flex;
+    align-items: center;
+  }
+
+  .w-100{
+    width: 69%!important;
+    margin: auto;
+  }
+}
+
 
 
 
