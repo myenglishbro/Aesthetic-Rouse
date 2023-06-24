@@ -457,7 +457,6 @@ figure {
   border-radius: 48px;
   transition: all 0.3s ease;
   overflow: hidden;
-  cursor: pointer;
     
 }
 
@@ -502,7 +501,6 @@ figure {
   border-radius: 48px;
   transition: all 0.3s ease;
   overflow: hidden;
-  cursor: pointer;
   background-repeat: no-repeat;
   background-position: center center;
 }
