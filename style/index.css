@@ -465,7 +465,7 @@ figure {
 
 .info{
   background: linear-gradient(180deg, rgba(220, 199, 255, 0) 0%, #DCC7FF 100%);
-  margin-top: 98%;
+  margin-top: 73%;
   position: relative;
   transition: all 0.5s;
   width: 100%;
@@ -492,12 +492,13 @@ figure {
 
 .card-tratamientosCorporales{
   position: relative;
-  background-size: 100% 100%;
+  background-size: contain;
   border-radius: 48px;
   transition: all 0.3s ease;
   overflow: hidden;
   cursor: pointer;
-    
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .card-tratamientosCorporales:hover .info {
@@ -506,7 +507,7 @@ figure {
 
 .info{
   background: linear-gradient(180deg, rgba(220, 199, 255, 0) 0%, #DCC7FF 100%);
-  margin-top: 98%;
+  margin-top: 73%;
   position: relative;
   transition: all 0.5s;
   width: 100%;
