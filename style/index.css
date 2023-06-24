@@ -468,10 +468,13 @@ figure {
   margin-top: 73%;
   position: relative;
   transition: all 0.5s;
-  width: 100%;
+  right: 11%;
+  width: 120%;
   height: 25%;
   bottom: -401px;
   transition: bottom 0.5s;
+
+  
 }
 
 .link-servicio{
@@ -480,6 +483,7 @@ figure {
   font-weight: 600;
   color: #452181;
   text-decoration: none;
+  margin-left: 13%;
 
 }
 
@@ -502,7 +506,7 @@ figure {
 }
 
 .card-tratamientosCorporales:hover .info {
-  bottom:10%;
+  bottom:7%;
 }
 
 .info{
@@ -510,24 +514,15 @@ figure {
   margin-top: 73%;
   position: relative;
   transition: all 0.5s;
-  width: 100%;
+  right: 11%;
+  width: 120%;
   height: 25%;
   bottom: -401px;
   transition: bottom 0.5s;
-}
-
-.link-servicio{
-  width: 100%;
-  text-align: center;
-  font-weight: 600;
-  color: #452181;
-  text-decoration: none;
 
 }
 
-.link-servicio:hover {
-    margin-top: 82%;
-}
+
 
 
 
