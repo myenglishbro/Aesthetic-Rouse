@@ -351,7 +351,7 @@ figure {
     font-size: 16px;
   }
 
-  .bi-whatsapp{
+  .bi-whatsapp-mobile{
     font-size: 16px;
   }
 
@@ -379,6 +379,52 @@ figure {
   .w-100{
     width: 69%!important;
     margin: auto;
+  }
+
+  .ellipse{
+    position: absolute;
+    width: 260.22px;
+    height: 344.15px;
+    left: -26%;
+    top: -45%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(148, 191, 255, 0.58) 0%, rgba(221, 226, 255, 0) 100%);
+    transform: rotate(-179.5deg);
+    z-index: -1;
+  }
+
+  .ellipse-2{
+    position: absolute;
+    width: 260px;
+    height: 344px;
+    left: 39%;
+    top: 76%;
+    background: radial-gradient(50% 50% at 50% 50%, #DCC7FF 0%, rgba(221, 226, 255, 0) 100%);
+    transform: rotate(-179.22deg);
+    z-index: -1;
+  }
+
+  .ellipse-mobile{
+    position: absolute;
+    width: 201px;
+    height: 208px;
+    left: 61%;
+    top: 594%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(148, 191, 255, 0.58) 0%, rgba(221, 226, 255, 0) 100%);
+    transform: rotate(-179.5deg);
+    z-index: -1;
+  
+  }
+  
+  .ellipse-mobile2{
+    position: absolute;
+    width: 181px;
+    height: 208px;
+    left: -15%;
+    top: 549%;
+    background: radial-gradient(50% 50% at 50% 50%, #DCC7FF 0%, rgba(221, 226, 255, 0) 100%);
+    transform: rotate(-179.22deg);
+    z-index: -1;
+  
   }
 }
 
