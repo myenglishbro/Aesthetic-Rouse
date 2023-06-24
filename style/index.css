@@ -407,8 +407,8 @@ figure {
     position: absolute;
     width: 201px;
     height: 208px;
-    left: 61%;
-    top: 594%;
+    left: 65%;
+    top: 500%;
     background: radial-gradient(50% 50% at 50% 50%, rgba(148, 191, 255, 0.58) 0%, rgba(221, 226, 255, 0) 100%);
     transform: rotate(-179.5deg);
     z-index: -1;
@@ -420,7 +420,7 @@ figure {
     width: 181px;
     height: 208px;
     left: -15%;
-    top: 549%;
+    top: 466%;
     background: radial-gradient(50% 50% at 50% 50%, #DCC7FF 0%, rgba(221, 226, 255, 0) 100%);
     transform: rotate(-179.22deg);
     z-index: -1;
